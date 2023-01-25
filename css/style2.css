@@ -1,0 +1,80 @@
+html {
+    max-width: 190ch;
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 2;
+    font-size: 0.91em;
+}
+
+[aria-current="page"] {
+    cursor: default;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+@media print {
+    html, body {
+        
+        font-size: 6pt;
+    }
+
+    .nonprint {
+        display: none;
+    }
+}
+
+.container-iframe {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#payroll {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.bg-yellow500 {
+    background-color: #FFC107;
+}
+
+.bg-green400 {
+    background-color: #479F76;
+}
+
+.bg-orange500 {
+    background-color: #FD7E14;
+}
+
+.bg-red400 {
+    background-color: #E35D6A;
+}
+
+.bg-blue300 {
+    background-color: #3D8BFD;
+}

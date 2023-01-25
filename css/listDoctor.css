@@ -1,0 +1,107 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  font-family: 'Kanit', sans-serif;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: 'Kanit', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.fom-date{width: 100%;}
+.from-y{width: 80%;}
+.td-m{padding: 0px;border: unset;    width: 10px;}
+.table-m{border: unset;}
+.bt-m{background: #8bc34a;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 4px;
+  cursor: pointer;}
+  .bt-mm{background: #03a9f4;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 4px;
+    cursor: pointer;}
+    .bt-m:hover{    background: #98ba72;}
+    .bt-mm:hover{    background: #42bef6;}
+    .textcss{    white-space: nowrap;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      -ms-text-overflow: ellipsis;
+      overflow: hidden;
+      width: 228px;}
+      .sumtext{    font-size: 17px;
+        font-weight: 600;}
+        #searchtable {
+          width: 100%;
+          padding: 6px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          font-family: 'Kanit', sans-serif;
+        }
+        #searchtable1 {
+          width: 100%;
+          padding: 6px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          font-family: 'Kanit', sans-serif;
+        }
+        .from-edit{width: 100%;}
+        .from-input-edit{width: 95%;margin:auto;}
+        .inputText{
+          width: 100%;
+          padding: 6px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          font-family: 'Kanit', sans-serif;
+        }
+        .tbA{width: 12%}
+        input[type="text"]{
+  width: 100%;
+  padding: 6px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+.from-bill{width: 90%;}
+.bgl{background: #ff9800;}
+        
